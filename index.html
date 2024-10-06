@@ -21,7 +21,7 @@
           </div>
         </div>
       </div>
-    <nav class="navbar navbar-expand-lg ">
+    <nav class="navbar navbar-expand-lg bg-light">
         <div class="container">
           <a class="navbar-brand" href="#"><img class= "cat-logo img-fluid" src="./assets/img/Nomads - Cat.png" alt="logo de la tienda"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,13 +69,15 @@
       </nav>
     </header>
 
+    <!--Carrusel-->
+
       <main>
         <div id="carouselE1" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselE1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselE1" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselE1" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselE1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselE1" data-bs-slide-to="0" class="active mt-5" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselE1" data-bs-slide-to="1" class="mt-5" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselE1" data-bs-slide-to="2" class="mt-5" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselE1" data-bs-slide-to="3" class="mt-5" aria-label="Slide 4"></button>
           </div>
           <div class="carousel-inner ">
             <div class="carousel-item active">
@@ -91,14 +93,6 @@
               <img src="https://felinus.cl/img/cms/banner-revancha-rascadores.png" class="d-block w-100 img-fluid" alt="...">
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselE1" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselE1" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
       </main>
 
@@ -135,7 +129,7 @@
 
 
       <!-- Productos Destacados-->
-      <section  class="product" id="productos">
+      <section  class="product mb-5" id="productos">
         <div class="destacados-banner d-flex justify-content-center mb-5">
           <img src="./assets/img/gatipuntos.png" class="img-fluid" alt="">
         </div>
@@ -267,7 +261,88 @@
         </div>
     </section>
 
-    
+    <!-- Newsletter -->
+    <section class="newsletter mb-5">
+      <div class="newsletter-container">
+          <div class="row align-items-center">
+              <div class="col-12 col-md-6 d-flex justify-content-center">
+                  <img src="./assets/img/newsletter.jpg" class="img-fluid" alt="Newsletter Image">
+              </div>
+              <div class="col-12 col-md-6">
+                  <div class="text-center">
+                      <h5>¡Suscríbete a nuestro boletín!</h5>
+                      <p>Recibe todas nuestras novedades y promociones</p>
+                  </div>
+                  <form class="input-group d-flex justify-content-center mb-3 mt-3 " action="/suscribirse" method="post">
+                      <input type="email" class="newsletter-input px-2" placeholder="Ingresa tu correo" aria-label="Correo electrónico" aria-describedby="button-addon2" required>
+                      <button class="btn btn-newsletter" type="submit" id="button-addon2">Suscribirse</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!--Info-->
+  <section class="info-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h5 class="mb-2">Guía de Compra</h5>
+                <p><i class="bi bi-chevron-compact-right"></i> <a href="/info-envio">Info de envío</a></p>
+                <p><i class="bi bi-chevron-compact-right"></i> <a href="/formas-de-pago">Formas de pago</a></p>
+                <p><i class="bi bi-chevron-compact-right"></i> <a href="/gato-puntos">Gato Puntos</a></p>
+                <p><i class="bi bi-chevron-compact-right"></i> <a href="/terminos-y-condiciones">Términos y condiciones</a></p>
+            </div>
+            <div class="col-md-3">
+                <h5 class="mb-2">Contacto</h5>
+                <p>Email: <a href="mailto:ventas@katstore.cl">ventas@katstore.cl</a></p>
+                <p>Teléfono: <a href="tel:+56227607777">+56922222222</a></p>
+                <p>WhatsApp: <a href="https://wa.me/56972149999">+56955555555</a></p>
+                <p>Atención al cliente:
+                    <ul>
+                        <li>Lunes a sábado: 8:00 a 21:00</li>
+                        <li>Domingo: 9:00 a 20:00</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="col-md-3">
+                <h5>Información</h5>
+                <p><i class="bi bi-chevron-compact-right"></i> <a href="/preguntas-frecuentes">Preguntas Frecuentes</a></p>
+                <p><i class="bi bi-chevron-compact-right"></i> <a href="/trabaja-con-nosotros">Trabaja con nosotros</a></p>
+                <p><i class="bi bi-chevron-compact-right"></i> <a href="/blog">Blog</a></p>
+            </div>
+            <div class="col-md-3">
+                <h5>Nuestra Tienda</h5>
+                <p class="fs-6">Somos una tienda de mascotas especializada en Gatos con más de 7 años en el mercado.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+
+<footer class="bg-light text-center text-lg-start mt-5">
+  <div class="container p-4">
+      <div class="row align-items-center">
+          <div class="col-md-4 d-flex justify-content-start">
+              <img src="./assets/img/Nomads - Cat.png" alt="Logo" class="img-fluid" style="width: 100px;">
+          </div>
+          <div class="col-md-4 text-center">
+              <p>&copy; 2024 Sukiih. Todos los derechos reservados.</p>
+          </div>
+          <div class="col-md-4 d-flex justify-content-end">
+              <a href="#" class="me-3 text-decoration-none"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="me-3 text-decoration-none"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="text-decoration-none"><i class="bi bi-instagram"></i></a>
+          </div>
+      </div>
+  </div>
+</footer>
+
+
+
+  
+
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>

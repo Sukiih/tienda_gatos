@@ -92,4 +92,51 @@
     font-weight: 600;
 }
 
+.newsletter{
+    overflow-x: hidden;
+}
 
+.newsletter-container{
+    background-color: rgb(154, 6, 173);
+    color: white;
+}
+
+.newsletter-input{
+    width: 300px ;
+    border-radius: 20px 0px 0px 20px;
+    border: none;
+    outline: none;
+    border-right: none;
+}
+.btn-newsletter{
+    background-color: #F2CE0F;
+    border-radius: 0px 20px 20px 0px;
+    border: none;
+    outline: none;  
+}
+
+.info-section a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin-right: 15px;
+    font-size: 12px;
+}
+
+.info-section a:hover{
+    color: rgb(189, 10, 212);
+}
+
+.info-section li{
+    list-style: circle;
+}
+
+footer{
+    box-shadow: 2px 5px 10px rgb(133, 132, 134);
+}
+footer i{
+    color: rgba(189, 10, 212);
+    font-size: 20px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
