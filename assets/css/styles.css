@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cat-logo{
+    width: 100px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 15px;
+    font-size: 12px;
+    transition: all 0.3s;
+}
+
+.nav-item a:hover{
+    color: rgb(189, 10, 212);
+}
+
+
+
+.search{
+    height: 45px;
+    outline: none;
+    border: 2px solid rgb(189, 10, 212);
+    background-color: transparent;
+    border-radius: 20px 0px 0px 20px;
+    border-right: none;
+}
+
+.btn1{
+    height: 45px;
+    outline: none; 
+    border: none;
+    background-color: rgb(189, 10, 212);
+    color: white;
+    border-radius: 0px 20px 20px 0px;
+    transition: all 0.3s;
+}
+
+.btn1:hover{
+    background-color: rgb(154, 6, 173);
+}
+
+.bi-basket{
+    font-size: 30px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.bi-basket:hover{
+    color: rgb(154, 6, 173);
+}
+
+
