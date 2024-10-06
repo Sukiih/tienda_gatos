@@ -4,6 +4,24 @@
     box-sizing: border-box;
 }
 
+
+.header-banner{
+    background-color: #F2CE0F;
+}
+
+.header-banner-text{
+
+    height: auto;
+    color:black;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.header-banner-text i {
+    font-size: 1.5rem; 
+    line-height: 1; 
+}
+
 .cat-logo{
     width: 100px;
 }
@@ -21,8 +39,6 @@
 .nav-item a:hover{
     color: rgb(189, 10, 212);
 }
-
-
 
 .search{
     height: 45px;
@@ -55,6 +71,25 @@
 
 .bi-basket:hover{
     color: rgb(154, 6, 173);
+}
+
+.carousel-inner img{
+    height: 400px;
+}
+
+.card {
+    width: 100%; 
+    margin: 30px; 
+}
+  .card-img {
+    margin-top: 10px;
+    max-width: 35%; 
+    height: auto; 
+    margin-bottom: 0px;
+}
+.card-text {
+    font-size: 12px;
+    font-weight: 600;
 }
 
 
